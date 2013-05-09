@@ -1,0 +1,73 @@
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top: 140px;
+    right: 0px;
+    list-style: none;
+    z-index:999999;
+}
+ul#navigation li {
+    width: 30px;
+    height:27px;
+}
+ul#navigation li span {
+    display: block;
+    width: 50px;
+    height:50px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;  
+    background: #2D2D2D url(../img/icon_gear.png) no-repeat center center;
+    margin-left:0px;
+    border-left:none !important;
+    cursor:pointer;
+    position: relative;
+    right: 165px;
+
+}
+#panel {
+    background: #2D2D2D;
+    height: 280px;
+    width:145px;
+    position:relative;
+    top:-50px;left:-115px;
+    border-bottom-left-radius:5px; 
+}
+#panel a {
+	cursor: pointer;
+}
+#panel p {
+	padding-left: 22px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+	color: #fff;
+	font-size: 16px;
+}
+.style-color {
+	display: block;
+	float: left;
+	height: 50px;
+	width: 100px;
+	background: #2D2D2D;
+	margin-top: 22px;
+	margin-left: 22px;
+	border: 1px solid #ccc;
+	line-height: 50px;
+	text-align: center;
+	color: #ccc !important;
+	font-size: 12px;
+}
+.style-color:hover {
+	display: block;
+	float: left;
+	height: 50px;
+	width: 100px;
+	background: #2D2D2D;
+	margin-top: 22px;
+	margin-left: 22px;
+	border: 1px solid #fff;
+	line-height: 50px;
+	text-align: center;
+	color: #fff !important;
+	font-size: 12px;
+}
